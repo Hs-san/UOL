@@ -1,0 +1,165 @@
+
+ body{
+    background-color:white ;
+    margin: 0%; 
+    padding: 0%;
+    overflow-x: hidden;
+ }
+ .search-icon{   /*line 79 */
+    position: relative;
+    left:-30px;
+    top:7px;
+
+}
+.logo-img{    /*line 30 */
+    width: 210.55px;
+    height: 74px;
+}
+.search-input{   /*line 78 */
+    border: none;
+     border-radius: 0%;
+     height: 28px;
+}
+.color-text{ /*line 37,48,59,70,73 */
+    color:aliceblue !important;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.train-smoke{  /*line 81 */
+ width: 100%;
+ 
+ 
+}
+.firstH{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.firstP{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.firstB{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+
+}
+
+.event{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #28783b;
+}
+.secondT{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ font-weight: 600;
+}
+.readM{
+    color: #545454;
+}
+.readM:hover{
+    color: #28783b;
+    cursor: pointer;
+}  
+
+.event-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+  
+.date-section {
+    text-align: center;
+    color: #4caf50;
+}
+  
+.date-section .day {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  
+.date-section .month {
+    font-size: 1.2rem;
+    color: black;
+  }
+  
+.date-section .underline {
+    height: 3px;
+    background-color: #4caf50;
+    width: 50px;
+    margin: 5px auto 0;
+  }
+  
+.details-section h3 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+  }
+  
+.time-location {
+    color: #4caf50;
+    font-size: 1rem;
+  }
+  
+.icon {
+    margin-right: 5px;
+  }
+.animated-element {
+            
+            
+    opacity: 0; /* Initially hidden */
+    transform: translateY(30px); /* Start with a slight offset */
+    transition: opacity 1s ease, transform 1s ease;
+}
+.alumni{
+    font-size:48px;
+    
+}
+.custom-height {
+    height: 400px; /* Default height */
+}
+@media  (max-width: 767px) {
+    .custom-height {
+      height: 1030px; /* Height for devices between 600px and 1000px wide */
+    }
+}
+.animate {
+    opacity: 0; /* Initially invisible */
+    transform: translateY(30px); /* Start from y: 30px */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out; /* Animate on visibility */
+}
+
+/* When element is in the viewport */
+.animate.visible {
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Move to y: 0 */
+}
+.mediaFont{
+    text-decoration: none;
+    font-size: 30px;
+     color:inherit;
+}
+.footerH{
+    color:#317d43;
+     font-family: Arial, Helvetica, sans-serif;
+     transition: all 0.1s 0.1s ease-in;
+}
+.footerH:hover{
+    color:azure;
+}
+
+  
+
+
+
+
+
+
+
+
